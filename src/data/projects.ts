@@ -5,14 +5,14 @@ export const projects: Project[] = [
     id: 1,
     title: 'MedTriagem - Sistema de Triagem (versão nova)',
     description: 'Aplicação web full-stack desenvolvida para automatizar triagens médicas com base em sintomas, priorizar agendamentos por gravidade e manter histórico clínico dos pacientes. Projeto visa reduzir o tempo de espera e melhorar a eficiência no atendimento.',
-    image: '/imagens/login01.PNG',
+    image: './imagens/login01.PNG',
     tags: ['React', 'Node.js', 'Prisma ORM', 'PostgreSQL', 'Tailwind CSS'],
     repoUrl: 'https://github.com/valdeircesario/MedTriagem',
     demoImages: [
-      '/imagens/cadastro.PNG',
-      '/imagens/admin01.PNG',
-      '/imagens/admin03.PNG',
-      '/imagens/user01.PNG'
+      './imagens/cadastro.PNG',
+      './imagens/admin01.PNG',
+      './imagens/admin03.PNG',
+      './imagens/user01.PNG'
     ],
     features: [
       'Sistema de triagem automatizada baseado em sintomas',
@@ -26,13 +26,13 @@ export const projects: Project[] = [
     id: 2,
     title: 'Sistema de Triagem de Pacientes',
     description: 'Aplicação full-stack para priorização de atendimentos em unidades de saúde, com cadastro, classificação e agendamento inteligente. Reduziu o tempo de espera e melhorou a gestão médica.',
-    image: '/imagens/home.png',
+    image: './imagens/home.png',
     tags: ['Angular', 'Quarkus', 'Java', 'PostgreSQL', 'Docker'],
     repoUrl: 'https://github.com/valdeircesario/Sistema-de-triagem',
     demoImages: [
-      '/imagens/cadastrar.png',
-      '/imagens/admin.png',
-      '/imagens/user.png'
+      './imagens/cadastrar.png',
+      './imagens/admin.png',
+      './imagens/user.png'
     ],
     features: [
       'Classificação automática de prioridade médica',
@@ -46,15 +46,15 @@ export const projects: Project[] = [
     id: 3,
     title: 'Portfólio Pessoal (React)',
     description: 'Portfólio responsivo criado com React, utilizando componentes reutilizáveis para organizar e apresentar projetos de forma escalável e profissional.',
-    image: '/imagens/001.png',
+    image: './imagens/001.png',
     tags: ['React', 'HTML', 'CSS'],
     repoUrl: 'https://github.com/valdeircesario/Portfolio-VS',
     demoUrl: 'https://portfoliovcs.netlify.app/',
     demoImages: [
-      '/imagens/002.png',
-      '/imagens/003.png',
-      '/imagens/004.png',
-      '/imagens/005.png'
+      './imagens/002.png',
+      './imagens/003.png',
+      './imagens/004.png',
+      './imagens/005.png'
     ],
     features: [
       'Design responsivo e moderno',
@@ -68,14 +68,14 @@ export const projects: Project[] = [
     id: 4,
     title: 'E-commerce Azalleia (Moda Feminina)',
     description: 'Loja virtual com catálogo interativo, busca de produtos e integração com WhatsApp para pedidos. Foco em experiência de usuário e design responsivo.',
-    image: '/imagens/azzaleia01.png',
+    image: './imagens/azzaleia01.png',
     tags: ['React', 'JavaScript', 'CSS'],
     repoUrl: 'https://github.com/valdeircesario/Azalleia_Moda_Feminina',
     demoImages: [
-      '/imagens/azzaleia02.png',
-      '/imagens/azzaleia03.png',
-      '/imagens/azzaleia04.png',
-      '/imagens/azzaleia05.png'
+      './imagens/azzaleia02.png',
+      './imagens/azzaleia03.png',
+      './imagens/azzaleia04.png',
+      './imagens/azzaleia05.png'
     ],
     features: [
       'Catálogo de produtos interativo',
@@ -89,13 +89,13 @@ export const projects: Project[] = [
     id: 5,
     title: 'AppComparaTudo',
     description: 'Aplicativo Java que permite comparar objetos com base em critérios definidos. Explora conceitos de lógica de programação, banco de dados e interação com usuário.',
-    image: '/imagens/Captura de Tela (85).png',
+    image: './imagens/Captura de Tela (85).png',
     tags: ['Java', 'SQL', 'PostgreSQL'],
     repoUrl: 'https://github.com/valdeircesario/AppComparaTudo',
     demoImages: [
-      '/imagens/Captura de Tela (86).png',
-      '/imagens/Captura de Tela (84).png',
-      '/imagens/Captura de Tela (85).png'
+      './imagens/Captura de Tela (86).png',
+      './imagens/Captura de Tela (84).png',
+      './imagens/Captura de Tela (85).png'
     ],
     features: [
       'Algoritmos de comparação personalizáveis',
@@ -109,13 +109,13 @@ export const projects: Project[] = [
     id: 6,
     title: 'Portfólio HTML/CSS (Versão Básica)',
     description: 'Página pessoal criada com HTML e CSS puro, apresentando trajetória acadêmica, habilidades e projetos de forma simples e objetiva.',
-    image: '/imagens/portifolio01.png',
+    image: './imagens/portifolio01.png',
     tags: ['HTML', 'CSS'],
     repoUrl: 'https://github.com/valdeircesario/MeuPortfolio-html',
     demoImages: [
-      '/imagens/portifolio02.png',
-      '/imagens/portifolio03.png',
-      '/imagens/portfolio04.png'
+      './imagens/portifolio02.png',
+      './imagens/portifolio03.png',
+      './imagens/portfolio04.png'
     ],
     features: [
       'HTML semântico e acessível',
