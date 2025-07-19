@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-500 via-orange-600 to-orange-500 animate-gradient p-1">
                 <div className="absolute inset-1 rounded-full bg-gradient-to-br from-black to-gray-900 p-1">
                   <img 
-                    src="/src/imagens/fotoperfil0011.jpg" 
+                    src="/public/imagens/fotoperfil0011.jpg" 
                     alt="Valdeir Cesário Silva" 
                     className="rounded-full w-full h-full object-cover object-center"
                   />
