@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
         },
         'jfATqsEVSWFyMD4Tz' // Public Key
       );
-
+      
       console.log('Email enviado com sucesso:', result.text);
       setStatus('success');
       
@@ -50,7 +50,6 @@ const Contact: React.FC = () => {
       
       // Resetar status após 5 segundos
       setTimeout(() => setStatus('idle'), 5000);
-      
     } catch (error) {
       console.error('Erro ao enviar email:', error);
       setStatus('error');
@@ -61,28 +60,28 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900">
-      <div className="container mx-auto px-6">
+    <section id="contact" className="py-12 sm:py-16 lg:py-20 bg-gray-50 dark:bg-gray-900">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white font-poppins">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white font-poppins">
             Entre em <span className="text-orange-600 dark:text-orange-400">Contato</span>
           </h2>
           <div className="w-20 h-1 bg-orange-500 mx-auto mt-4 mb-8 rounded-full"></div>
-          <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto px-4">
             Tem uma pergunta ou quer trabalhar junto? Fique à vontade para me contatar.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-10">
-          <div className="md:col-span-1 space-y-6">
+        <div className="grid lg:grid-cols-3 gap-6 lg:gap-10">
+          <div className="lg:col-span-1 space-y-6">
             <Card className="p-6 group hover:border-orange-500/50 transition-colors">
               <div className="flex items-center mb-4 text-orange-600 dark:text-orange-400">
                 <Mail size={24} />
-                <h3 className="text-xl font-semibold ml-2 text-gray-900 dark:text-white">
+                <h3 className="text-lg sm:text-xl font-semibold ml-2 text-gray-900 dark:text-white">
                   E-mail
                 </h3>
               </div>
-              <p className="text-gray-700 dark:text-gray-300">
+              <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 break-all">
                 valdeircesario11@hotmail.com
               </p>
             </Card>
@@ -90,11 +89,11 @@ const Contact: React.FC = () => {
             <Card className="p-6 group hover:border-orange-500/50 transition-colors">
               <div className="flex items-center mb-4 text-orange-600 dark:text-orange-400">
                 <Phone size={24} />
-                <h3 className="text-xl font-semibold ml-2 text-gray-900 dark:text-white">
+                <h3 className="text-lg sm:text-xl font-semibold ml-2 text-gray-900 dark:text-white">
                   Telefone
                 </h3>
               </div>
-              <p className="text-gray-700 dark:text-gray-300">
+              <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300">
                 (61) 98408-0130
               </p>
             </Card>
@@ -102,18 +101,18 @@ const Contact: React.FC = () => {
             <Card className="p-6 group hover:border-orange-500/50 transition-colors">
               <div className="flex items-center mb-4 text-orange-600 dark:text-orange-400">
                 <MapPin size={24} />
-                <h3 className="text-xl font-semibold ml-2 text-gray-900 dark:text-white">
+                <h3 className="text-lg sm:text-xl font-semibold ml-2 text-gray-900 dark:text-white">
                   Localização
                 </h3>
               </div>
-              <p className="text-gray-700 dark:text-gray-300">
+              <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300">
                 Luziânia, Goiás, Brasil
               </p>
             </Card>
 
             {/* Social Links */}
             <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
+              <h3 className="text-lg sm:text-xl font-semibold mb-4 text-gray-900 dark:text-white">
                 Redes Sociais
               </h3>
               <div className="flex space-x-4">
@@ -137,10 +136,10 @@ const Contact: React.FC = () => {
             </Card>
           </div>
 
-          <div className="md:col-span-2">
-            <Card className="p-8">
+          <div className="lg:col-span-2">
+            <Card className="p-6 sm:p-8">
               <form onSubmit={handleSubmit}>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   <div>
                     <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
                       Seu Nome
@@ -152,8 +151,8 @@ const Contact: React.FC = () => {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                      //placeholder="Valdeir Silva"
+                      className="w-full px-3 py-2 text-sm sm:text-base border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
+                      placeholder="João Silva"
                       disabled={status === 'loading'}
                     />
                   </div>
@@ -168,8 +167,8 @@ const Contact: React.FC = () => {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                      //placeholder="valdeir@exemplo.com"
+                      className="w-full px-3 py-2 text-sm sm:text-base border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
+                      placeholder="joao@exemplo.com"
                       disabled={status === 'loading'}
                     />
                   </div>
@@ -186,8 +185,8 @@ const Contact: React.FC = () => {
                     required
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                    //placeholder="Oportunidade de Projeto"
+                    className="w-full px-3 py-2 text-sm sm:text-base border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
+                    placeholder="Oportunidade de Projeto"
                     disabled={status === 'loading'}
                   />
                 </div>
@@ -203,9 +202,8 @@ const Contact: React.FC = () => {
                     required
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                    //placeholder="Sua mensagem aqui..."
-                    disabled={status === 'loading'}
+                    className="w-full px-3 py-2 text-sm sm:text-base border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-white resize-none"
+                    placeholder="Sua mensagem aqui..."
                   ></textarea>
                 </div>
                 
@@ -227,18 +225,18 @@ const Contact: React.FC = () => {
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
-                      Sua mensagem foi enviada com sucesso! Retornarei em breve.
-                    </div>
+                      ✅ Mensagem enviada com sucesso! Entrarei em contato em breve.
                   </div>
+                </div>
                 )}
                 
                 {status === 'error' && (
-                  <div className="mt-4 p-4 bg-red-100 dark:bg-red-900/20 text-red-800 dark:text-red-200 rounded-md border border-red-200 dark:border-red-700">
+                  <div className="mt-4 p-3 bg-red-100 dark:bg-red-900/20 text-red-800 dark:text-red-200 rounded-md border border-red-200 dark:border-red-700">
                     <div className="flex items-center">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                       </svg>
-                      Houve um erro ao enviar sua mensagem. Por favor, tente novamente ou entre em contato diretamente.
+                      ❌ Erro ao enviar mensagem. Verifique sua conexão e tente novamente.
                     </div>
                   </div>
                 )}

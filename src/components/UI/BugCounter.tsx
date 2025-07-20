@@ -64,11 +64,11 @@ const BugCounter: React.FC<BugCounterProps> = ({
   return (
     <div id="bug-counter" className={`flex flex-col items-center ${className}`}>
       <div className="flex items-center mb-2">
-        <Bug className="text-primary-500 mr-2" size={24} />
-        <span className="text-4xl font-bold text-gray-900 dark:text-white">{count}</span>
+        <Bug className="text-primary-500 mr-2" size={20} />
+        <span className="text-2xl sm:text-4xl font-bold text-gray-900 dark:text-white">{count}</span>
       </div>
-      <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100">{title}</h3>
-      <p className="text-sm text-gray-600 dark:text-gray-400">{subtitle}</p>
+      <h3 className="text-sm sm:text-lg font-semibold text-gray-800 dark:text-gray-100 text-center">{title}</h3>
+      <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 text-center">{subtitle}</p>
     </div>
   );
 };

@@ -26,8 +26,6 @@ const Navbar: React.FC = () => {
     };
   }, []);
 
- 
-
   const navLinks = [
     { name: 'Início', href: '#hero' },
     { name: 'Sobre', href: '#about' },
@@ -45,14 +43,14 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <span className="text-xl font-bold text-primary-600 dark:text-primary-400">
+            <span className="text-lg sm:text-xl font-bold text-primary-600 dark:text-primary-400">
               Valdeir<span className="text-primary-500">QA</span>
             </span>
           </div>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center space-x-8">
+            <div className="hidden lg:flex items-center space-x-6">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
@@ -63,28 +61,28 @@ const Navbar: React.FC = () => {
                 </a>
               ))}
             </div>
-            <div className="hidden md:flex items-center space-x-3">
-                            <DarkModeToggle />
+            <div className="hidden lg:flex items-center space-x-3">
+              <DarkModeToggle />
               <a
                 href="https://1drv.ms/b/c/47a39077082d73ae/EQq1-LAIrcZPtaUoohiD1uIBrMKNomS0MzqnsNBQosNdvg?e=pyRktY" // coloque aqui o caminho ou link do seu currículo
                 download
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  icon={<FileDown size={16}/>}
-                  className="border-primary-500/50 text-primary-600 hover:bg-primary-50 dark:hover:bg-primary-900/20"
-                >
-                  Currículo
-                </Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                icon={<FileDown size={16} />}
+                className="border-primary-500/50 text-primary-600 hover:bg-primary-50 dark:hover:bg-primary-900/20"
+              >
+                Currículo
+              </Button>
               </a>
             </div>
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex md:hidden items-center space-x-3">
+          <div className="flex lg:hidden items-center space-x-3">
             <DarkModeToggle />
             <button
               onClick={toggleMenu}
@@ -99,9 +97,9 @@ const Navbar: React.FC = () => {
       {/* Mobile menu */}
       <div
         className={`
-          md:hidden fixed inset-0 z-40 bg-white dark:bg-black transition-transform duration-300 ease-in-out
+          lg:hidden fixed inset-0 z-40 bg-white dark:bg-black transition-transform duration-300 ease-in-out
           ${isOpen ? 'translate-x-0' : 'translate-x-full'}
-          pt-20 px-6
+          pt-20 px-4 sm:px-6
         `}
       >
         <div className="flex flex-col space-y-6">
