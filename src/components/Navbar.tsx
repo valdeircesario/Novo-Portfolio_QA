@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
             <div className="hidden lg:flex items-center space-x-3">
               <DarkModeToggle />
               <a
-                href="https://1drv.ms/b/c/47a39077082d73ae/EbRSb1-f-xFKp0T3b0KYO2cBr6tglt9aWn4efGg3Jq47RQ?e=ow56Ht" // coloque aqui o caminho ou link do seu currículo
+                href="https://1drv.ms/b/c/47a39077082d73ae/IQDD5wa1lqsBSaSHikJOFvt_ASd2QT8lHjDjdh1omy5RcF8?e=Ezu7vx" // coloque aqui o caminho ou link do seu currículo
                 download
                 target="_blank"
                 rel="noopener noreferrer"
