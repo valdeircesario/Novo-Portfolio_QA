@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <span className="text-lg sm:text-xl font-bold text-primary-600 dark:text-primary-400">
-              Valdeir<span className="text-primary-500">QA</span>
+              Valdeir<span className="text-primary-500">QA/QC</span>
             </span>
           </div>
 
