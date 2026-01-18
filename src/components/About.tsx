@@ -13,7 +13,7 @@ const About: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-orange-500 mx-auto mt-4 mb-8 rounded-full"></div>
           <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto px-4">
-            Desenvolvedor Full Stack e Especialista em QA comprometido com a excelência e qualidade de software
+            Especialista QA (Quality Assurance) & QC (Quality Control) comprometido com a excelência e qualidade de software
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const About: React.FC = () => {
               </div>
               <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-900 dark:text-white">Experiência</h3>
               <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300">
-                Estagiário na FHE POUPEX, atuando no desenvolvimento e testes de software
+                Estagiário na FHE POUPEX, atuando no desenvolvimento e na qualidade do software
               </p>
             </Card>
             
