@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           <div className="text-center lg:text-left order-2 lg:order-1">
             <div className="inline-flex items-center px-4 py-2 bg-orange-500/10 rounded-full mb-6 backdrop-blur-sm border border-orange-500/20">
               <Terminal size={16} className="text-orange-400 mr-2" />
-              <span className="text-xs sm:text-sm text-orange-400">Full Stack Developer | QA Engineer</span>
+              <span className="text-xs sm:text-sm text-orange-400">Developer | QA Engineer | QC Quality Control</span>
             </div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-poppins leading-tight">
