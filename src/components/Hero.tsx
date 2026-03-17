@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-lg sm:text-xl text-gray-100/90 mb-8 max-w-lg leading-relaxed mx-auto lg:mx-0">
-              Transformando ideias em soluções tecnológicas inovadoras através de desenvolvimento full-stack e garantia de qualidade.
+              Asseguro a qualidade de software através de automação de testes e validação contínua ao longo do ciclo de desenvolvimento.
             </p>
 
             {/* Contact Info */}

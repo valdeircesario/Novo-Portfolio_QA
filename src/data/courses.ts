@@ -99,4 +99,5 @@ export const courses: Course[] = [
     duration: '14 horas',
     year: 2022,
   }
+
 ];

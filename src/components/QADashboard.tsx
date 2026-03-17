@@ -118,9 +118,9 @@ const QADashboard: React.FC = () => {
                   <AlertCircle className="text-yellow-500" size={20} />
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Testes de Performance</h4>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Testes exploratorios</h4>
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                    Testes de carga e otimização de tempo de resposta
+                    Testes exploratorios com finalidade de encontrar bugs e falhas
                   </p>
                 </div>
               </div>
@@ -130,9 +130,9 @@ const QADashboard: React.FC = () => {
                   <XCircle className="text-red-500" size={20} />
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Testes de Segurança</h4>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Testes de integração</h4>
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                    Avaliação de vulnerabilidades e proteção de dados
+                    validar integração entre sistemas e serviços
                   </p>
                 </div>
               </div>

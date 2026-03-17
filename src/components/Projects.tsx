@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-orange-500 mx-auto mt-4 mb-8 rounded-full"></div>
           <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto px-4">
-            Uma coleção de projetos que demonstram minhas habilidades em desenvolvimento full-stack e qualidade de software
+            Uma coleção de projetos que demonstram minhas habilidades em desenvolvimento full-stack com foco em qualidade de software
           </p>
         </div>
 

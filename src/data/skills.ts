@@ -14,6 +14,8 @@ export const skills: Skill[] = [
   { name: 'Testes de Software', level: 70, category: 'hard' },
   { name: 'Qualidade de Software', level: 78, category: 'hard' },
   { name: 'Power BI', level: 50, category: 'hard' },
+  { name: 'TIR - Test Interface Robot', level: 50, category: 'hard' },
+  { name: 'Python', level: 30, category: 'hard' },
 
   // Habilidades Comportamentais
   { name: 'Inteligência Emocional', level: 90, category: 'soft' },
@@ -25,5 +27,6 @@ export const skills: Skill[] = [
   { name: 'Resiliência', level: 90, category: 'soft' },
   { name: 'Gestão do Tempo', level: 85, category: 'soft' },
   { name: 'Comunicação', level: 90, category: 'soft' },
-  { name: 'Proatividade', level: 95, category: 'soft' }
+  { name: 'Proatividade', level: 95, category: 'soft' },
+  { name: 'Analitico', level: 95, category: 'soft' }
 ];
