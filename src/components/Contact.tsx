@@ -117,7 +117,7 @@ const Contact: React.FC = () => {
               </h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://www.linkedin.com/in/valdeircesario2023/"
+                  href="https://www.linkedin.com/in/valdeircesarioqa/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 rounded-lg hover:bg-orange-200 dark:hover:bg-orange-900/50 transition-colors"

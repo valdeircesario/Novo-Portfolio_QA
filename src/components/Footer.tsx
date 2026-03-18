@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              Valdeir<span className="text-orange-500">QA/QC</span>
+              Valdeir <span className="text-orange-500">QA/QC</span>
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Desenvolvedor Full Stack e especialista em QA & QC, transformando ideias em soluções tecnológicas inovadoras com foco na qualidade e experiência do usuário.
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                 <GitHub size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/in/valdeircesario2023/"
+                href="https://www.linkedin.com/in/valdeircesarioqa/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"

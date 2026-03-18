@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <span className="text-lg sm:text-xl font-bold text-primary-600 dark:text-primary-400">
-              Valdeir<span className="text-primary-500">QA/QC</span>
+              Valdeir <span className="text-primary-500">QA/QC</span>
             </span>
           </div>
 
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
             <div className="hidden lg:flex items-center space-x-3">
               <DarkModeToggle />
               <a
-                href="https://1drv.ms/b/c/47a39077082d73ae/IQAxfd1BOIfLQIdoaD5GDBxUAQaJIdowDTzCkle6Kgn6Bi0?e=U72J6Q" // coloque aqui o caminho ou link do seu currículo
+                href="https://1drv.ms/b/c/47a39077082d73ae/IQA_MUqd9PCIS5QDoQ-SjoAyAdLnagdU6n5tWCYdpgGkHiw" // coloque aqui o caminho ou link do seu currículo
                 download
                 target="_blank"
                 rel="noopener noreferrer"
